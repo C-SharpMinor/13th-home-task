@@ -26,8 +26,8 @@ const ticketPrice = "2500";
 const ticketCount = 3;
 const budget = 10000;
 // Convert ticketPrice to a number and calculate the total cost.
-Number(ticketPrice);
-const totalCost= ticketPrice * ticketCount;
+const numeralTicketPrice= Number(ticketPrice);
+const totalCost= numeralTicketPrice * ticketCount;
 
 // Display the total with two decimal places using toFixed().
 console.log(totalCost.toFixed(2))
