@@ -11,7 +11,7 @@
 // 1. Practise a Simple if Statement
 
 // Create batteryLevel and assign it 15.
-const batteryLevel = 15
+const batteryLevel = 15;
 
 // Use an if statement to display "Low battery! Please charge your device." when the level is below 20.
 if (batteryLevel < 20){
@@ -30,7 +30,7 @@ const numeralTicketPrice= Number(ticketPrice);
 const totalCost= numeralTicketPrice * ticketCount;
 
 // Display the total with two decimal places using toFixed().
-console.log(totalCost.toFixed(2))
+console.log(totalCost.toFixed(2));
 
 // Use if...else to display "Booking affordable" if the total is within the budget, or "Not enough money" otherwise.
 if (totalCost <= budget){
@@ -64,7 +64,7 @@ const isSuspended = false;
 
 // Combine logical operators to store the result in canEnter.
 
-const canEnter= hasLibraryCard || hasGuestPass && !isSuspended
+const canEnter= hasLibraryCard || hasGuestPass && !isSuspended;
 
 // Use if...else to display "Access granted" or "Access denied".
 if (canEnter){
@@ -79,7 +79,7 @@ else{
 // 5. Choose a Delivery Charge
 
 // Create a variable named distance.
-const distance= 20
+const distance= 20;
 
 // Use if...else if...else to display:
 
